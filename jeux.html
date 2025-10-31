@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des jeux</title>
     <style type="text/css">
+        table {
+            border-collapse: collapse;
+            width: 50%
 
+        }
+
+        td, th {
+            border: 1px solid black;
+
+        }
     </style>
 </head>
 <body>
@@ -18,13 +27,31 @@
             <table>
                 <caption>Liste des jeux</caption>
                 <tr>
-                    <td>Shadow of the Nexus</td>
-                    <td>Mystic Horizons</td>
-                    <td>Iron Blade</td>
-                    <td colspan="3"><em>Uniquement cette semaine</em></td>
+                    <th>Shadow of the Nexus</td>
+                    <th>Mystic Horizons</td>
+                    <th>Iron Blade</td>
+                    <th rowspan="3"><em>Uniquement cette semaine</em></td>
                 </tr>
                 <tr>
-                    <td><img src="" alt=""></td>
+                    <td><img src="./images/mystic_1.webp" width="307px" height="537px"></td>
+                    <td><img src="./images/mystic_3.webp" width="307px" heigh="537px"></td>
+                    <td><img src="./images/iron_2.webp" width="307px" height="537px"></td>
+                </tr>
+                <tr>
+                    <td><button>Ajouter au panier - 29<sup>99</sup>$</button></td>
+                    <td><button>Ajouter au panier 39<sup>99</sup>$</button></td>
+                    <td><button>Ajouter au panier 19<sup>99</sup>$</button></td>
+                </tr>
+                <tr>
+                    <th>Portal to the Past</th>
+                    <th>Forest Green</th>
+                    <th>Unbound</th>
+                    <th rowspan="3"><em>En promo</em></th>
+                </tr>
+                <tr>
+                    <td><img src="./images/shadow_2.webp" width="307px" height="537px"></td>
+                    <td><img src="./images/iron_5.webp" width="307px" height="537px"></td>
+                    <td><img src="./images/last_4.webp" width="307px" height="537px"></td>
                 </tr>
             </table>
         </div>
